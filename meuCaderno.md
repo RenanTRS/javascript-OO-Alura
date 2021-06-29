@@ -19,3 +19,18 @@ const cliente1 = new Cliente();
 ```
 cliente1.nome = "Ricardo";  
 ```
+
+# Aula02 - Adicionando Comportamentos
+## Comportamentos de classes:  
+- **Métodos:**  
+```
+sacar(valor){
+	if(this._saldo >= valor){
+		this._saldo -= valor;
+	}
+}
+```
+
+## Atributos Privados:  
+- ```#saldo``` Forma ainda não oficial de deixar um atributo privado;  
+- ```_saldo``` Outra forma que a conveção da comunidade diz que um atributo é privado;  
