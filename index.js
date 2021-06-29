@@ -19,8 +19,7 @@ cliente2.cpf = 88822233309;
 conta2.cliente = cliente2;
 conta2.agencia = 102;
 conta2.depositar(50);
-console.log(conta2._saldo);
+
 
 conta1.transfere(50, conta2);
-console.log(`Conta1: ${conta1._saldo}`);
-console.log(`Conta2: ${conta2._saldo}`);
+console.log(conta2);
