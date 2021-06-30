@@ -15,3 +15,4 @@ conta2.depositar(50);
 //Output
 conta1.transfere(50, conta2);
 console.log(conta1);
+console.log(ContaCorrente.numeroDeContas);
