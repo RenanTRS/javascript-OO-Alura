@@ -74,3 +74,22 @@ get cliente(){
 	return this._cliente;
 }
 ```  
+# Aula05 - Construtores e estáticos
+## Construtores:
+- Exemplo de construtor;  
+```
+constructor(nome, cpf){
+	this.nome = nome;
+	this._cpf = cpf;
+}
+```
+## Atributos estáticos:
+- ```static numeroDeContas = 0;``` Forma de deixar um atributo estático;  
+- Forma de usar um atributo estático;  
+```
+constructor(agencia, cliente){
+	this.agencia = agencia;
+	this.cliente = cliente;
+	ContaCorrente.numerodeDeContas += 1;
+}
+```
