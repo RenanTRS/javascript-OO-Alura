@@ -6,6 +6,11 @@ export class ContaCorrente{
     _saldo = 0; //atributo privado
     
     
+    constructor(agencia, cliente){
+        this.agencia = agencia;
+        this.cliente = cliente;
+    }
+    
     set cliente(novoCliente){
         if(novoCliente instanceof Cliente){
             this._cliente = novoCliente;
